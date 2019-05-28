@@ -5,3 +5,6 @@ funct1 s i
 
 Boustrophedon :: [String] -> [String]
 Boustrophedon xs = map funct1 $ xs
+
+cheap :: Int -> Int -> Int
+cheap i j = i + j
